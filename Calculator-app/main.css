@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                  url("../../Wallpaper/photo5830210215474213721.jpg");
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                  background: rgba(48, 100, 90, 0.842);
+}
+.calculator{
+    background: #eaeaea;
+    width: 320px;
+    margin:10rem auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.21);
+    border-radius: 10px;
+}
+
+.keyboard{
+    padding:0 1rem 1rem 0;
+    position: relative;
+    left: 20px;
+    
+}
+
+.history{
+    top: 1rem;
+    padding: 1rem;
+    position: relative;
+}
+
+#result{
+    font-weight: bold;
+    position: relative;
+    height: 30px;
+    top: 10px;
+    padding-right: 20px;
+    font-size: large;
+    color: rgb(0, 153, 255);
+}
+
+.operator, .digit, .clear{
+    font-weight: bold;
+    margin:.5rem;
+    background: whitesmoke;
+    cursor: pointer;
+}

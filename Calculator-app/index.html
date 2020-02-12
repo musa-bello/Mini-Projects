@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="calculator">
+            <div class="history text-right">
+                <input type="text" id="input" class="form-control" disabled>
+            </div>
+            <div class="text-right"> 
+                <p id="result"></p>
+            </div>
+            <div class="keyboard">
+                <buttton class="btn clear btn-outline-primary" data-key = "clear"> c </buttton>
+                <buttton class="btn clear btn-outline-primary" data-key = "del">d </buttton>
+                <buttton class="btn clear btn-outline-primary" data-num = "sqrt"> &radic; </buttton>
+                <buttton class="btn digit btn-outline-primary" data-num = "+"> + </buttton>
+                <buttton class="btn digit btn-outline-secondary" data-num = "7"> 7 </buttton>
+                <buttton class="btn digit btn-outline-secondary" data-num = "8"> 8 </buttton>
+                <buttton class="btn digit btn-outline-secondary" data-num = "9"> 9 </buttton>
+                <buttton class="btn digit btn-outline-primary" data-num = "/"> &divide; </buttton>
+                <buttton class="btn digit btn-outline-secondary" data-num = "4"> 4 </buttton>
+                <buttton class="btn digit btn-outline-secondary" data-num = "5"> 5 </buttton>
+                <buttton class="btn digit btn-outline-secondary" data-num = "6"> 6 </buttton>
+                <buttton class="btn digit btn-outline-primary" data-num = "-"> &minus; </buttton>
+                <buttton class="btn digit btn-outline-secondary" data-num = "1"> 1 </buttton>
+                <buttton class="btn digit btn-outline-secondary" data-num = "2"> 2 </buttton>
+                <buttton class="btn digit btn-outline-secondary" data-num = "3"> 3 </buttton>
+                <buttton class="btn digit btn-outline-primary" data-num = "*"> &times; </buttton>
+                <buttton class="btn digit btn-outline-secondary" data-num = "."> &sdot; </buttton>
+                <buttton class="btn digit btn-outline-secondary" data-num = "0"> 0 </buttton>
+                <buttton class="btn clear btn-outline-primary" data-key = "pi"> &pi; </buttton>
+                <buttton class="btn operator btn-outline-success" data-key = "="> &equals; </buttton>
+            </div>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
