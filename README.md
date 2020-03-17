@@ -1,2 +1,2 @@
 # Mini-Projects
-Front End based projects
+This repo contains project built with vanilla Js and ReactJs
